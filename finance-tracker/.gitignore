@@ -1,0 +1,29 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore environment variables
+.env
+
+# Ignore Django migrations cache
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build files
+build/
+dist/
+
+# Ignore VS Code settings
+.vscode/
